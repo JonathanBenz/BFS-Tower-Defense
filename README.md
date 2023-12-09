@@ -1,0 +1,3 @@
+This is a student project from the GameDev.TV's online Unity 3D course. In this tower defense game, the enemy AI pathfinding calculates a shortest path to the gates of the enemy tower with a breadth-first search, making use of graphs and trees data structures. If a tower is placed down that blocks the path, then the enemy AI automatically recalculate a new path.
+
+This project also utilizes the Object Pooling design pattern, where instead of constantly instantiating and destroying game objects (which might become computationally intensive), all the enemy AI are instantiated at the very start of the game and are either enabled or disabled throughout the game but are never repeatedly instantiated or destroyed. This design pattern helps with computational performance.
